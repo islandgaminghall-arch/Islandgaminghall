@@ -1,0 +1,245 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Island Gaming Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Island Gaming Hall</h1>
+    <p class="tagline">Where Gaming Lights Up</p>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Welcome to the Hall!</h2>
+    <p>Join the adventure -- epic games, next-level play, and endless fun await.</p>
+    <a href="https://www.youtube.com/channel/UCPVwjpMhIbv6wyScdGK9OGw" target="_blank" class="button">Watch on YouTube</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Island Gaming Hall. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – Island Gaming Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Island Gaming Hall</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>About Island Gaming Hall</h2>
+    <p>Welcome to <strong>Island Gaming Hall</strong> -- a space built by gamers, for gamers!  
+       We bring a mix of console, PC, and mobile gaming content -- walkthroughs, funny moments, and epic wins.  
+       Our goal is simple: create a fun, positive, and glowing community where every gamer belongs.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Island Gaming Hall</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Island Gaming Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Island Gaming Hall</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Contact Us</h2>
+    <p>Have feedback, collaboration ideas, or just want to say hi? Send a message below!</p>
+
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Island Gaming Hall</p>
+  </footer>
+</body>
+</html><style>@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0a0a0f;
+  color: #e0e0ff;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: linear-gradient(90deg, #090979, #00d4ff);
+  box-shadow: 0 0 20px #00d4ff;
+}
+
+.logo {
+  font-size: 2.2em;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00aaff;
+  margin: 0;
+}
+
+.tagline {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.content {
+  padding: 60px 20px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #00ffff;
+  color: #0a0a0f;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  background-color: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff, 0 0 25px #00ffff;
+  color: white;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #1a1a25;
+  color: #fff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #00ffff;
+  box-shadow: 0 0 8px #00ffff;
+}
+
+footer {
+  background: #090979;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #ccc;
+  box-shadow: 0 -2px 15px #00d4ff;
+}
+/* Glowing title animation */
+.glow-text {
+  animation: glowPulse 2.5s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00aaff, 0 0 30px #0077ff;
+  }
+  to {
+    text-shadow: 0 0 25px #ff00ff, 0 0 40px #00ffff, 0 0 60px #00aaff;
+  }
+}
+
+/* Canvas for cursor effect */
+#cursorCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999;
+}</style><script><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Island Gaming Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="cursorCanvas"></canvas>
+
+  <header>
+    <h1 class="logo glow-text">Island Gaming Hall</h1>
+    <p class="tagline">Where Gaming Lights Up</p>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Welcome to the Hall!</h2>
+    <p>Join the adventure -- epic games, next-level play, and endless fun await.</p>
+    <a href="https://www.youtube.com/channel/UCPVwjpMhIbv6wyScdGK9OGw" target="_blank" class="button">Watch on YouTube</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Island Gaming Hall. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ </script>
